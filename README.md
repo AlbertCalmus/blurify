@@ -10,3 +10,7 @@ Small Python script to convert an image into a slowly unblurring video.
 + `git clone https://github.com/AlbertCalmus/blurify.git`
 + `cd/blurify`
 + `python blurify.py <img_path>`
+
+### Example
+![](input_example.jpg)
+![](output_example.gif)
