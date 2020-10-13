@@ -6,7 +6,7 @@ from PIL import Image, ImageFilter
 
 def generate_video_from_img(img_path):
   img = Image.open(img_path)
-  writer = imageio.get_writer('videos/{}.mp4'.format(np.abs(hash(img_path))), format='FFMPEG', mode='I', fps=10)
+  writer = imageio.get_writer('{}.mp4'.format(np.abs(hash(img_path))), format='FFMPEG', mode='I', fps=10)
     
   for i in range(100, -1, -1):
     new_frame = img.filter(ImageFilter.GaussianBlur(i))
