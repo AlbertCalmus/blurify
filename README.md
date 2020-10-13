@@ -14,4 +14,4 @@ Small Python script to convert an image into a slowly unblurring video.
 ### Example
 | Input                    | Output                   |
 |--------------------------|--------------------------|
-| ![](input_example.jpg)   | ![](output_example.gif)  |
+| <img src="input_example.jpg" width="320" height="480">| <img src="output_example.gif" width="320" height="480">|
