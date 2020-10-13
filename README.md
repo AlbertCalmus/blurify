@@ -12,5 +12,6 @@ Small Python script to convert an image into a slowly unblurring video.
 + `python blurify.py <img_path>`
 
 ### Example
-![](input_example.jpg)
-![](output_example.gif)
+| Input                    | Output                   |
+|--------------------------|--------------------------|
+| ![](input_example.jpg)   | ![](output_example.gif)  |
